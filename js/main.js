@@ -22,7 +22,7 @@ var cards = [
 ];
 var cardsInPlay = [];
 var checkForMatch = function(){
-  if (cardsInPlay === 2) {
+  if (cardsInPlay.length === 2) {
     if (cardsInPlay[0] === cardsInPlay[1]) {
         alert("You found a match!");
       } else {
